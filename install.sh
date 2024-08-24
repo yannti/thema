@@ -21,9 +21,9 @@ display_welcome() {
   echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@fadhost"
+  echo -e "@lakatutu"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@FadhostOffc"
+  echo -e "@lakatutu"
   sleep 4
   clear
 }
@@ -56,20 +56,20 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY FADHOST OFFC             [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY LAKATUTU OFFC             [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "fadhostxaisyah" ]; then
+  if [ "$USER_TOKEN" = "lakatutu" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
     echo -e "${GREEN}Buy dulu Gih Ke Fadhost${NC}"
-    echo -e "${YELLOW}TELEGRAM : @fadhost${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6289530583676${NC}"
+    echo -e "${YELLOW}TELEGRAM : @LAKATUTU${NC}"
+    echo -e "${YELLOW}WHATSAPP : 6283120975728${NC}"
     echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}©FadhostOffc${NC}"
+    echo -e "${YELLOW}©LAKATUTU${NC}"
     exit 1
   fi
   clear
@@ -92,7 +92,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/gitfdil1248/thema/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/yannti/thema/raw/main/C2.zip")
         break
         ;;
       2)
@@ -100,7 +100,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/gitfdil1248/thema/raw/main/C3.zip")
+        THEME_URL=$(echo -e "https://github.com/yannti/thema/raw/main/C3.zip")
         break
         ;; 
       x)
@@ -245,7 +245,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/C2.zip https://github.com/gitfdil1248/thema/raw/main/C2.zip
+wget -O /root/C2.zip https://github.com/yannti/thema/raw/main/C2.zip
 
 # Ekstrak file tema
 unzip /root/C2.zip -d /root/pterodactyl
@@ -454,9 +454,9 @@ while true; do
   echo -e "${RED}',gg       ,ggg.      'ggg:                               ${NC}"
   echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer Fadhost   ${NC}"
   echo -e "${RED}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : fadhost      ${NC}"
-  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : FADHOSTOFFC  ${NC}"
-  echo -e "${RED} ggg.    '.'''ggggggp           • Support by FadhostOffc  ${NC}"
+  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : LAKATUTU     ${NC}"
+  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : LAKATUTU     ${NC}"
+  echo -e "${RED} ggg.    '.'''ggggggp           • Support by LAKATUTU     ${NC}"
   echo -e "${RED}  'ggg    '-.__                                           ${NC}"
   echo -e "${RED}    ggg                                                   ${NC}"
   echo -e "${RED}      ggg                                                 ${NC}"
